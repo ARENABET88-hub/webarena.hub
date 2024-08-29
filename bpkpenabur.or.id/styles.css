@@ -1,0 +1,133 @@
+/* Reset beberapa gaya default browser */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Gaya untuk body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+}
+
+/* Header dan Navigasi */
+header {
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+nav .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+nav h1 {
+    margin: 0;
+    font-size: 1.8em;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Hero Section */
+.hero {
+    background: black;
+    color: #fff;
+    text-align: center;
+    padding: 30px 20px;
+}
+
+.hero-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.hero h2 {
+    font-size: 3em;
+    margin-bottom: 30px;
+}
+
+.hero p {
+    font-size: 1.5em;
+    margin-bottom: 30px;
+}
+
+.cta-button {
+    background: #007bff;
+    color: #fff;
+    padding: 15px 50px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+}
+
+.cta-button:hover {
+    background: #0056b3;
+}
+
+/* Image and Text Section */
+#image-text {
+    padding: 60px 20px;
+    background: #ffffff;
+}
+
+.image-text-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 1500px;
+    margin: 20px auto;
+}
+
+.image {
+    width: 50%;
+    height: auto;
+    margin-right: 20px;
+    padding-left: 50px;
+}
+
+.text {
+    max-width: 50%;
+    font-size: 1.5em;
+    padding: 50px;
+}
+
+.text h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.text p {
+    font-size: 1.2em;
+    line-height: 1.6;
+}
+
+footer{
+    background: linear-gradient(105deg, #000000 35.41%, #08de18 121.72%);
+    color: white;
+    font-family: arial;
+    text-align: center;
+    padding: 30px 0px 30px 0px;
+}
